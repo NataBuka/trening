@@ -1,0 +1,138 @@
+/* Syudio*/
+.header {
+    background-color: var(--primary-background-color);
+}
+/* ==========logo========= */
+
+
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--primary-logo-color);}
+
+
+/* ==========navigation========= */
+
+.nav-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--secondary-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--primary-logo-color);
+}
+
+
+
+/* ==========auth-nav========= */ 
+
+.auth-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color);
+}
+
+.auth-link:hover,
+.auth-link:focus {
+    color: var(--primary-logo-color);
+}
+
+
+/* ==========hero========= */
+
+.heading {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+
+.btn {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: var(--primary-background-color);
+        background-color: var(--primary-logo-color);
+}
+
+/* ========= section advantages ========= */
+
+.advantages-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        color: var(--primary-text-color);
+}
+
+
+/* ========= section team ========= */
+
+.team-text {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        color: var(--primary-text-color);
+}
+
+.team-subtitle {
+    text-align: center;
+}
+
+
+/* ========= footer ========= */
+.footer {
+    background-color: var(--footer-background-color);
+}
+.address-link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--primary-logo-color);
+}
+
+.map {
+    color: var(--primary-background-color);
+}
+
+
+
+/*Portfolio*/
+
+.btn-menu {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        text-align: center;
+        color: var(--secondary-text-color);
+        background-color: #F5F4FA;
+}
+
+.btn-menu:hover,
+.btn-menu:focus {
+    color: var(--primary-background-color);
+    background-color: var(--primary-logo-color);
+}
+
+
+
+/*Contacts*/

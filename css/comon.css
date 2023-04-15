@@ -1,0 +1,65 @@
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --primary-logo-color: #2196F3;
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+    --footer-background-color: #2F303A;
+    --primary-font-famili: Roboto,
+        sans-serif;
+    --logo-font-famili: Raleway,
+        sans-serif;
+    --primiry-text-color-teme-dark: ;    
+    --primiry-text-color-teme-light: ;
+    
+
+}
+
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+body {
+    font-family: var(--primary-font-famili);
+    letter-spacing: 0.03em;
+}
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.site-nav .link.current {
+    color: var(--primary-logo-color);
+}
+
+/*.title {
+    color: rgb(14, 14, 14);
+    text-shadow: -2px 2px 5px rgb(81, 79, 77);
+}*/
+ /* =========h2========== */
+
+.title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        color: var(--secondary-text-color);
+
+}
+
+/* =========h3========== */
+.subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+}
+
+
+.body {
+    background-color: var(--primary-background-color);
+}
