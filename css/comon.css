@@ -35,6 +35,12 @@ body {
     color: var(--primary-logo-color);
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /*.title {
     color: rgb(14, 14, 14);
     text-shadow: -2px 2px 5px rgb(81, 79, 77);

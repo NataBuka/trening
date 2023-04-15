@@ -116,8 +116,8 @@
 
 
 
-/*Portfolio*/
-
+/*=========Portfolio==========*/
+/* ====Button=== */
 .btn-menu {
         font-weight: 500;
         font-size: 16px;
@@ -132,6 +132,36 @@
     color: var(--primary-background-color);
     background-color: var(--primary-logo-color);
 }
+
+/* ===<li class="product">==== */
+
+.product-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--secondary-text-color);
+        text-align: left;
+}
+
+.product-paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        color: var(--primary-text-color);
+        text-align: left;
+}
+
+/* ====Button=== */
+
+
+
+/* ====Button=== */
+
+
+
+/* ====Button=== */
+
 
 
 
