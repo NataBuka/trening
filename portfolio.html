@@ -12,34 +12,40 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+
     <link rel="stylesheet" href="/css/comon.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body>
-<section class="container"></section>
-    <header class="header">
-        <a  href="./index.html" class=" link logo">WebStudio</a>
-        <nav class="site-nav">
-            <ul class="list">
-                <li class=""><a class="nav-link link" href="./index.html">Studio</a></li>
-                <li class=""><a class="nav-link link current" href="./portfolio.html">Portfolio</a></li>
-                <li class=""><a class="nav-link link" href="./contacts.html">Contacts</a></li>
-            </ul>
-        </nav>
+<body class="body">
 
-        <section>
-            <ul class="auth-nav list">
-                <li class=""><a class="auth-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class=""><a class="auth-link link" href="tel:+1 803 235 14 93">+1 212-772-4150</a></li>
-            </ul>
-        </section>
-
-    </header>
+        <header class="header">
+            <section class="container flex-container">
+                <a href="./index.html" class="logo link">Web<span class="logo-header-color">Studio</span></a>
+                <nav class="navigation">
+                    <ul class="site-nav list">
+                        <li class="site-list"><a class="nav-link link" href="./index.html">Studio</a></li>
+                        <li class="site-list"><a class="nav-link link current" href="./portfolio.html">Portfolio</a></li>
+                        <li class="site-list"><a class="nav-link link" href="./contacts.html">Contacts</a></li>
+                    </ul>
+                </nav>
+        
+                <section class="section-auth">
+                    <ul class="auth-nav list">
+                        <li class="auth-list"><a class="auth-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="auth-list"><a class="auth-link link" href="tel:+18032351493">+1 212-772-4150</a></li>
+                    </ul>
+                </section>
+            </section>
+        </header>
 
 
 <main class="">
-    <section class="container">
+    <section class="container section">
+        <div class="btn-menu-list">
     <button type="menu" class="btn-menu">
         <p>All</p>
     </button>
@@ -55,52 +61,77 @@
     <button type="menu" class="btn-menu">
         <p>Marketing</p>
     </button>
+        </div>
+
 
     <ul class="products">
         <li class="product list">
             <img src="./images/technoduck.jpg" alt="website page technoduck" width="370">
+            <div class="product-title-wrapper">
             <h3 class="product-title">Technoduck</h3>
             <p  class="product-paragraph">Web-site</p>
+               </div>
+        
         </li>
         <li class="product list">
             <img src="./images/poster.jpg" alt="two basketbolists" width="370">
+            <div class="product-title-wrapper">
             <h3 class="product-title">Poster New Orlean vs Golden Star</h3>
             <p  class="product-paragraph">Design</p>
+               </div>
+        
         </li>
         <li class="product list">
             <img src="./images/restaurant.jpg" alt="emblem of fish restaurant" width="370">
+            <div class="product-title-wrapper">
             <h3 class="product-title">Seafood Restaurant</h3>
             <p  class="product-paragraph">Apps</p>
+            </div>
+
         </li>
         <li class="product list">
             <img src="./images/prime.jpg" alt="headphone" width="370">
+            <div class="product-title-wrapper">
             <h3 class="product-title">Project Prime</h3>
             <p  class="product-paragraph">Marketing</p>
+            </div>
+        
         </li>
         <li class="product list">
             <img src="./images/boxes.jpg" alt="two boxes" width="370">
+            <div class="product-title-wrapper">
             <h3 class="product-title">Project Boxes</h3>
             <p  class="product-paragraph">Apps</p>
+            </div>
+        
         </li>
         <li class="product list">
             <img src="./images/inspiration.jpg" alt="page of Inspiration site" width="370">
+            <div class="product-title-wrapper">
             <h3 class="product-title">Inspiration has no Borders</h3>
             <p class="product-paragraph">Web-site</p>
+            </div>
         </li>
         <li class="product list">
             <img src="./images/edition.jpg" alt="open book" width="370">
+            <div class="product-title-wrapper">
             <h3 class="product-title">Limited Edition</h3>
             <p class="product-paragraph">Design</p>
+            </div>
         </li>
         <li class="product list">
             <img src="./images/lab.jpg" alt="emblem of LAB" width="370">
+            <div class="product-title-wrapper">
             <h3 class="product-title">Project LAB</h3>
             <p class="product-paragraph">Marketing</p>
+            </div>
         </li>
         <li class="product list">
             <img src="./images/business.jpg" alt="page of app" width="370">
+            <div class="product-title-wrapper">
             <h3 class="product-title">Growing Business</h3>
             <p class="product-paragraph">Apps</p>
+            </div>
         </li>
     </ul>
 </section>
@@ -108,22 +139,24 @@
 
 
     <footer class="footer">
-        <section class="container"></section>
-        <a class="logo link" href="">WebStudio</a>
-        <address>
-            <ul class="list">
-                <li class="">
-                    <a class="address-link link map" href="https://www.google.com/maps/place/Hunter+Psycho-Oncology+Lab/@40.7688994,-73.9672143,17z/data=!4m15!1m8!3m7!1s0x89c258ebe8836e8f:0xa007c44e7c4aa0eb!2s695+Park+Ave,+New+York,+NY+10065!3b1!8m2!3d40.7688994!4d-73.9650256!16s%2Fg%2F11c250btd8!3m5!1s0x89c258eb8bfe738b:0xaeac5b08fcc41bda!8m2!3d40.7688994!4d-73.9650256!16s%2Fg%2F11srgk0vk3"
-                        target="_blank">695 Park Ave, New York, NY 10065, United States</a>
-                </li>
-                <li class="">
-                    <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="">
-                    <a class="address-link link" href="tel:1 803 235 14 93">+1 803 235 14 93</a>
-                </li>
-            </ul>
-        </address>
+        <div class="footer-section container">
+            <a class="logo logo-footer link" href="">Web<span class="logo-footer-color">Studio</span></a>
+            <address>
+                <ul class="list">
+                    <li class="footer-address-item">
+                        <a class="address-link link map"
+                            href="https://www.google.com/maps/place/Hunter+Psycho-Oncology+Lab/@40.7688994,-73.9672143,17z/data=!4m15!1m8!3m7!1s0x89c258ebe8836e8f:0xa007c44e7c4aa0eb!2s695+Park+Ave,+New+York,+NY+10065!3b1!8m2!3d40.7688994!4d-73.9650256!16s%2Fg%2F11c250btd8!3m5!1s0x89c258eb8bfe738b:0xaeac5b08fcc41bda!8m2!3d40.7688994!4d-73.9650256!16s%2Fg%2F11srgk0vk3"
+                            target="_blank">695 Park Ave, New York, NY 10065, United States</a>
+                    </li>
+                    <li class="footer-address-item">
+                        <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="footer-address-item">
+                        <a class="address-link link" href="tel:18032351493">+1 803 235 14 93</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 
 </body>

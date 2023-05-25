@@ -5,30 +5,70 @@
     --primary-background-color: #FFFFFF;
     --secondary-background-color: #F5F4FA;
     --footer-background-color: #2F303A;
+    --overlay-color: rgba(47, 48, 58, 0.4);
     --primary-font-famili: Roboto,
         sans-serif;
     --logo-font-famili: Raleway,
         sans-serif;
+    --btn-hover-color: #188CE8;
+    --btn-portfolio-menu-color: #F5F4FA;
+    --border-radius-btn: 4px;
+    --logo-header-color: #000000;
     --primiry-text-color-teme-dark: ;    
     --primiry-text-color-teme-light: ;
-    
+    --border-color: #EEEEEE;
 
 }
 
-/** {
-    margin: 0;
-    padding: 0;
-}*/
+
 body {
     font-family: var(--primary-font-famili);
     letter-spacing: 0.03em;
 }
+.body {
+    background-color: var(--primary-background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
 .link {
     text-decoration: none;
 }
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .site-nav .link.current {
@@ -39,6 +79,12 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    outline: 1px dashed violet;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /*.title {
@@ -48,13 +94,25 @@ body {
  /* =========h2========== */
 
 .title {
+        margin-bottom: 50px;    
+
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
         color: var(--secondary-text-color);
 
+     
+
+
 }
+
+
+.jobs {
+    padding-top: 0;
+}
+
+
 
 /* =========h3========== */
 .subtitle {
@@ -63,9 +121,37 @@ body {
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--secondary-text-color);
+    margin-bottom: 10px;
+
+
 }
 
+/* =====text====== */
 
-.body {
-    background-color: var(--primary-background-color);
+
+
+
+
+
+/* =======button======== */
+
+.primary-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-background-color);
+    background-color: var(--primary-logo-color);
+
+    display: inline-block;
+    padding: 10px 19px;
+    min-width: 200px;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-btn);
+}
+
+.primary-btn:hover,
+.primary-btn:focus {
+    background-color: var(--btn-hover-color);
 }
