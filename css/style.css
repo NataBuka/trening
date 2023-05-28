@@ -60,7 +60,9 @@
 /* ==========auth-nav========= */ 
 
 .auth-link {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 32px 0;
         font-weight: 500;
         font-size: 14px;
@@ -68,6 +70,8 @@
         letter-spacing: 0.02em;
         color: var(--primary-text-color);
 }
+
+
 
 .auth-list:not(:last-child) {
     margin-right: 40px;
@@ -87,7 +91,29 @@
     color: var(--primary-logo-color);
 }
 
+.auth-link:hover .icon-envelope,
+.auth-link:focus .icon-envelope {
+    fill: var(--primary-logo-color);
+}
 
+.icon {
+margin-right: 10px;
+height: 16px;
+fill: var(--primary-text-color);
+}
+
+.icon-smartphone {
+width: 10px;
+}
+
+.icon-envelope {
+    width: 12px;
+}
+
+.auth-link:focus .icon,
+.auth-link:hover .icon {
+    fill: var(--primary-logo-color);
+}
 /* ==========hero========= */
 
 .heading {
@@ -119,19 +145,28 @@
 
 
 /* ========= section advantages ========= */
-.Advantages-list {
+.advantages-list {
     display: flex;
    
 }
 
-.Advantages-item {
+.advantages-item {
     flex-basis: calc((100% - 3 * 30px) / 4);
     
 }
 
-.Advantages-item:not(:last-child) {
+.advantages-item:not(:last-child) {
 margin-right: 30px;
 }
+
+.advantages-icon {
+  width: 270px;  
+  height: 120px;
+  padding: 25px 100px; 
+  margin-bottom: 30px;
+  background-color: var(--secondary-background-color);
+}
+
 .advantages-text {
         font-weight: 400;
         font-size: 14px;
@@ -177,7 +212,40 @@ border-radius: 0px 0px 4px 4px;
     margin-bottom: 0;
 }*/
 
+.person-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+  
+
+}
+
+.person-list-link:not(:last-child) {
+    margin-right: 10px;
+}
+
+.icon-team {
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    fill: var(--primary-icon-color);
+   
+}
+
+
+.person-link {
+    display: blok;
+    width: 44px;
+    height: 44px;
+   
+}
+
+.person-link:hover .icon-team {
+
+    fill: var(--primary-background-color);
+    background-color: var(--primary-logo-color);
+}
 
 
 .team-text {
