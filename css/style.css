@@ -279,21 +279,39 @@ border-radius: 0px 0px 4px 4px;
 
 
 .client-link {
-    display: block;
-max-width: 170px;
+display: flex;
+width: 100%;
+height: 100%;
 padding: 16px 32px;
 border: 1px solid var(--primary-icon-color);
 border-radius: var(--border-radius-btn);
+background-position: center;
+color: var(--primary-icon-color);
+}
+
+.client-link:hover {
+    border: 1px solid var(--primary-logo-color);
+}
+
+.client-link:hover .client-icon {
+    fill: var(--primary-logo-color);
+}
+.client-item {
+    width: 170px;
+    height: 92px;
+}
+
+.client-item:not(:last-child) {
+margin-right: 30px;
 }
 
 .client-icon {
     width: 106px;
     height: 60px;
+    fill: currentColor;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-
-
-
-
 
 /* ========= footer ========= */
 .footer {
