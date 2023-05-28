@@ -226,27 +226,28 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .icon-team {
-    width: 44px;
-    height: 44px;
-    padding: 12px;
+  
     fill: var(--primary-icon-color);
    
 }
 
-
 .person-link {
-    display: blok;
+    display: flex;
     width: 44px;
     height: 44px;
-   
+    padding: 12px;
 }
 
-.person-link:hover .icon-team {
 
-    fill: var(--primary-background-color);
+.person-link:hover {
+    
+    border-radius: 50%;
     background-color: var(--primary-logo-color);
 }
 
+.person-link:hover .icon-team {
+    fill: var(--primary-background-color);
+}
 
 .team-text {
     font-family: 'Roboto';
@@ -256,6 +257,8 @@ border-radius: 0px 0px 4px 4px;
         line-height: 1.19;
         text-align: center;
         color: var(--primary-text-color);
+
+        margin-bottom: 16px;
 }
 
 .team-subtitle {
@@ -266,6 +269,30 @@ border-radius: 0px 0px 4px 4px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+/* ========= section customers ========= */
+
+.clients {
+    display: flex;
+}
+
+
+
+.client-link {
+    display: block;
+max-width: 170px;
+padding: 16px 32px;
+border: 1px solid var(--primary-icon-color);
+border-radius: var(--border-radius-btn);
+}
+
+.client-icon {
+    width: 106px;
+    height: 60px;
+}
+
+
+
 
 
 /* ========= footer ========= */
