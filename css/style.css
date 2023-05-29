@@ -319,6 +319,9 @@ margin-right: 30px;
     
 }
 
+.footer-wrapper {
+    display: flex;
+}
 
 .footer-section {
     padding-top: 60px;
@@ -326,8 +329,21 @@ margin-right: 30px;
 }
 
 
+.address-link {
+    display: block;
+}
+
+.logo-footer {
+    display: block;
+}
+
 .logo-footer-color {
     color: var(--primary-background-color);
+}
+
+
+.footer-address {
+    margin-right: 70px;
 }
 
 .footer-address-item:not(:last-child) {
@@ -353,7 +369,51 @@ margin-right: 30px;
     color: var(--primary-background-color);
 }
 
+.footer-subtitle {
+    line-height: 1.17;
+    color: var(--primary-background-color);
+    margin-bottom: 20px;
+}
 
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.footer-list-link:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-icon {
+
+    fill: var(--primary-background-color);
+
+}
+
+.footer-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: var(--footer-icon-bcg-color);
+  
+}
+
+
+.footer-link:hover {
+
+    border-radius: 50%;
+    background-color: var(--primary-logo-color);
+}
+
+.footer-link:hover .footer-icon {
+    fill: var(--primary-background-color);
+}
 
 /*=========Portfolio==========*/
 /* ====Button=== */
